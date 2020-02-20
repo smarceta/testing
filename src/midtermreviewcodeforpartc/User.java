@@ -20,6 +20,7 @@ public class User
      * @param givenName
      * @param givenPass 
      */
+    public User() {};
     public User(String givenName, String givenPass)
     {
         name = givenName;
